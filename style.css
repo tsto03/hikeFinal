@@ -1,0 +1,12 @@
+body {
+    background-color: red;
+}
+
+.navbar {
+    background-color: #333A35;
+    display: flex;
+}
+.navbar a {
+    color: white;
+    padding: 20px;
+}
