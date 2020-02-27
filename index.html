@@ -5,7 +5,7 @@
     <script src="https://kit.fontawesome.com/e56f39fc5b.js" crossorigin="anonymous"></script>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Hike!</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' href="./css/style.css">
     <script src='main.js'></script>
@@ -26,22 +26,43 @@
             padding: 20px;
         }
 
-        .container {
+        .column {
             display: flex;
             width: 100%;
             justify-content: flex-start;
             flex-direction: column;
         }
 
-        .container2 {
+        .container {
+            display: flex;
+        }
+
+        .column2 {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            align-items:flex-end;
-            padding-right:345px;
-            padding-top: -200px;
-            float: right;
-        
+            align-items: flex-end;
+            padding-right: 345px;
+            margin-bottom: 100px;
+
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: x-large;
+        }
+
+        .text-block {
+            position: absolute;
+            top: 210px;
+            right: 20px;
+            color: white;
+            padding-left: 20px;
+            padding-right: 400px;
         }
     </style>
 </head>
@@ -64,15 +85,25 @@
         <!-- articles start here -->
     </div>
     <div class="container">
+        <div class="column">
 
-        <img src="file:///Users/tstowers/Documents/projects/hike/images-for-hike-project/desert780x477.jpg" alt="Desert"
-            width="660" height="450">
+            <img src="file:///Users/tstowers/Documents/projects/hike/images-for-hike-project/desert780x477.jpg"
+                alt="Desert" width="660" height="450">
+            <div class="centered">HIKE IN THE SOLITUDE OF
+                ARIZONA'S DESERT</div>
+        </div>
+        <div class="column2">
+            <img src="file:///Users/tstowers/Documents/projects/hike/images-for-hike-project/stream420x240.jpg"
+                alt="Stream">
+            <div class="text-block">
+                <h4>CONTEMPLATE A MOUNTAIN STREAM</h4>
+            </div>
+            <img src="file:///Users/tstowers/Documents/projects/hike/images-for-hike-project/relax420x237.jpg"
+                alt="Relax" width="420" height="210">
+        </div>
+
     </div>
-    <div class="container2">
-        <img src="file:///Users/tstowers/Documents/projects/hike/images-for-hike-project/stream420x240.jpg"
-            alt="Stream">
-        <img src="file:///Users/tstowers/Documents/projects/hike/images-for-hike-project/relax420x237.jpg" alt="Relax">
-    </div>
+
     <!-- features start here  -->
 </body>
 
