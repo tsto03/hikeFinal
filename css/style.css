@@ -18,7 +18,7 @@ body {
     display: flex;
 }
 
-.column {
+.features .column {
     display: flex;
     width: 100%;
     justify-content: flex-start;
@@ -26,18 +26,16 @@ body {
 }
 
 
-.column2 {
+.features .column2 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 345px;
-    margin-bottom: 100px;
-
+    justify-content: center;
+    align-items: center;
+    padding-left: 315px;
 }
 
 
-.text-block {
+.features .text-block {
     position: absolute;
     top: 330px;
     right: 20px;
@@ -49,7 +47,7 @@ body {
 
 }
 
-.text-block2 {
+.features .text-block2 {
     position: absolute;
     top: 230px;
     right: -15px;
@@ -59,7 +57,7 @@ body {
     font-size: x-large;
 }
 
-.text-block3 {
+.features .text-block3 {
     position: absolute;
     bottom: 245px;
     right: 67px;
@@ -69,13 +67,13 @@ body {
     font-size: x-large;
 }
 
-h4 {
+.features h4 {
     padding: 0;
     margin: 0;
 
 }
 
-h5 {
+.features h5 {
     padding: 0px 50px 0px 60px;
     margin: 0px;
     font-size: xx-large;
